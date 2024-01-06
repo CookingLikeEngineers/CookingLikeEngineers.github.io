@@ -2,7 +2,7 @@ html *
 {
    color: #000 !important;
    font-family: Share Tech Mono !important;
-   font-size:medium;
+   font-size:large;
 }
 
 .container {
@@ -19,6 +19,10 @@ html *
     min-width: 70vw;
 }
 
-.recipe_card {
+/* .recipe_card {
     
+} */
+
+td {
+    cursor: pointer;
 }

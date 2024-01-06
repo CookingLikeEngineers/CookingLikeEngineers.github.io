@@ -12,3 +12,17 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+function toggleAll() {
+  var coll = document.getElementsByClassName("collapsible");
+  for (var i = 0; i < coll.length; i++) {
+    var content = coll[i].nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      coll[i].classList.remove("active");
+    } else {
+      content.style.display = "block";
+      coll[i].classList.add("active");
+    }
+  }
+}
