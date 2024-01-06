@@ -5,24 +5,43 @@ html *
    font-size:large;
 }
 
+.body {
+    min-width: 500px;
+}
+
 .container {
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     align-items: center;
     justify-content: center;
-    margin: 0;
+    /* margin: 10; */
     flex-direction: column;
     flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    min-width: 500px;  
 }
 
 .recipes {
-    min-width: 70vw;
+    width: 100%;
+    overflow-x: auto;
+    min-width: 500px;  
 }
 
-/* .recipe_card {
-    
-} */
+.table {
+    /* width: 120%; Adjust this value based on your table content */
+    border-collapse: collapse;
+    /* padding: 50px; Add padding to both left and right sides */
+}
 
-td {
+/* th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+} */
+th, td {
     cursor: pointer;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
