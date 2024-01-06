@@ -10,4 +10,6 @@ Send an excel file with
 
 ## Todos
 
+- [ ] Formatting of the tables: Remove the existing formating and apply CSS.  
+- [ ] Internal links: Link to a section and expand it.  
 - [ ] Timer animation: Animate coloring of a cell in the recipe card with time duration to indicate the duration of the step.
