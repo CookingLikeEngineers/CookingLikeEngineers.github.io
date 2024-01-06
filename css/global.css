@@ -1,0 +1,24 @@
+html *
+{
+   color: #000 !important;
+   font-family: Share Tech Mono !important;
+   font-size:medium;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.recipes {
+    min-width: 70vw;
+}
+
+.recipe_card {
+    
+}

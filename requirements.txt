@@ -1,0 +1,6 @@
+pandas
+numpy
+jupyter
+openpyxl
+xlsx2html
+beautifulsoup4
